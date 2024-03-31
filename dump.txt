@@ -1,0 +1,75 @@
+        .menu-container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #FFFDD0;
+        }
+        h1 {
+            text-align: center;
+        }
+        .menu-item {
+            margin-bottom: 10px;
+        }
+        .item-name {
+            font-weight: bold;
+            color: #FFFDD0;
+        }
+        .item-description {
+            color: #FFFDD0;
+        }
+        .item-price {
+            float: right;
+            color: #d3d3d3;
+        }
+    </style>
+    
+</head>
+<body style="background-color:#313632;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+             <div class="menu-item">
+                    <div class="item-name"></div>
+                    <div class="item-price">₹/-</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name"></div>
+                    <div class="item-price">₹/-</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name"></div>
+                    <div class="item-price">₹/-</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name"></div>
+                    <div class="item-price">₹/-</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name"></div>
+                    <div class="item-price">₹/-</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name"></div>
+                    <div class="item-price">₹/-</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name"></div>
+                    <div class="item-price">₹/-</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-name"></div>
+                    <div class="item-price">₹/-</div>
+                </div>

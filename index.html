@@ -1,11 +1,422 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello, World!</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Tasty - Amazing & Delicious Food</title>
+  <meta name="title" content="Tasty - Amazing & Delicious Food">
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg">
+
+
 </head>
-<body>
-    <h1>Hello, World!</h1>
+
+<body id="top" style="height: 100%">
+  <div style="height: 200px">
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">Tasty</p>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #TOP BAR
+  -->
+
+  <div class="topbar">
+    <div class="container">
+
+      <address class="topbar-item">
+        <div class="icon">
+          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">
+          Kaylana Lake, Jodhpur 
+        </span>
+      </address>
+
+      <div class="separator"></div>
+
+      <div class="topbar-item item-2">
+        <div class="icon">
+          <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">Daily : 8:00 am to 9:00 pm</span>
+      </div>
+
+      <a href="tel:+91 9216969900" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">+91 9216969900</span>
+      </a>
+
+      <div class="separator"></div>
+
+      <a href="mailto:padharotasty@gmail.com" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">padharotasty@gmail.com</span>
+      </a>
+
+    </div>
+  </div>
+
+      <!-- 
+        - #MENU
+      -->
+      <section class="section menu" aria-label="menu-label" id="menu">
+        <div class="container">
+          <p class="headline-1 section-title text-center">Tasty's </p>
+          <h2 class="section-subtitle text-center label-2">Delicious Menu</h2>
+          <ul class="grid-list">
+
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/shakes.jpg" width="100" height="100" loading="lazy" alt="Shakes"
+                    class="img-cover">
+                </figure>
+                <div>
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="./menus/shakes.html" class="card-title">Shakes</a>
+                    </h3>
+                    <span class="badge label-1">Special</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    description.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/delhichat.jpg" width="100" height="100" loading="lazy" alt="Delhi Chatkara Chaat"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="./menus/delhichat.html" class="card-title">Delhi Chatkara Chaat</a>
+                    </h3>
+                  </div>
+
+                  <p class="card-text label-1">
+                    description.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/sandwich.jpg" width="100" height="100" loading="lazy" alt="Sandwich"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="./menus/sandwich.html" class="card-title">Sandwich</a>
+                    </h3>
+                  </div>
+
+                  <p class="card-text label-1">
+                    description
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/burger.jpg" width="100" height="100" loading="lazy" alt="Burger"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="./menus/burger.html" class="card-title">Burger</a>
+                    </h3>
+                  </div>
+
+                  <p class="card-text label-1">
+                    description
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/panipuri.jpg" width="100" height="100" loading="lazy" alt="Pani Patashe"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="./menus/panipatashe.html" class="card-title">Pani Patashe</a>
+                    </h3>
+                  </div>
+
+                  <p class="card-text label-1">
+                    description
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/italian.jpg" width="100" height="100" loading="lazy" alt="Italian"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="./menus/italian.html" class="card-title">Italian</a>
+                    </h3>
+                  </div>
+
+                  <p class="card-text label-1">
+                    description.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/special.jpg" width="100" height="100" loading="lazy" alt="Special"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="./menus/special.html" class="card-title">Special</a>
+                    </h3>
+                  </div>
+
+                  <p class="card-text label-1">
+                    description
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/chinese.png" width="100" height="100" loading="lazy" alt="Chinese"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="./menus/chinese.html" class="card-title">Chinese</a>
+                    </h3>
+                  </div>
+
+                  <p class="card-text label-1">
+                    description
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/Pizza.jpg" width="100" height="100" loading="lazy" alt="Pizza"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="./menus/pizza.html" class="card-title">Pizza</a>
+                    </h3>
+                  </div>
+
+                  <p class="card-text label-1">
+                    description
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/southindian.jpg" width="100" height="100" loading="lazy" alt="South Indian"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="./menus/south.html" class="card-title">South Indian</a>
+                    </h3>
+                  </div>
+
+                  <p class="card-text label-1">
+                    description
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/pavbhaji.jpg" width="100" height="100" loading="lazy" alt="Pav Bhaji"
+                    class="img-cover">
+                </figure>
+                <div>
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="./menus/pavbaji.html" class="card-title">Pav Bhaji</a>
+                    </h3>
+                  </div>
+                  <p class="card-text label-1">
+                    description
+                  </p>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+          <!--
+          <a href="./menus/" class="btn btn-primary">
+            <span class="text text-1">View All Menu</span>
+
+            <span class="text text-2" aria-hidden="true">View All Menu</span>
+          </a>-->
+
+          <img src="./assets/images/shape-5.png" width="921" height="1036" loading="lazy" alt="shape"
+            class="shape shape-2 move-anim">
+          <img src="./assets/images/shape-6.png" width="343" height="345" loading="lazy" alt="shape"
+            class="shape shape-3 move-anim">
+
+        </div>
+      </section>
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</div>
 </body>
+
 </html>
